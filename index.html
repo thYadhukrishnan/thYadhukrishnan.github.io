@@ -4,18 +4,17 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Yadhu</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Yadhu Krishnan | Software Engineer (Laravel, React, Node.js, AI Integrations)</title>
+  <meta content="Portfolio of Yadhu Krishnan - Software Engineer specializing in Laravel, React, Node.js, MySQL, Docker, and AI integrations (OpenAI, Vapi AI, Twilio)." name="description">
+  <meta content="Yadhu Krishnan, Software Engineer, Laravel, React, Node.js, jQuery, PHP, MySQL, Docker, OpenAI, Vapi AI, Twilio, Web Developer" name="keywords">
 
-  <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
-  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230ea5e9'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,433 +25,884 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script> -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Core jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-
+  <!-- EmailJS SDK -->
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script type="text/javascript">
     (function() {
-        emailjs.init('b0S7bLMcG_uD5zrE_'); // Replace with your EmailJS Public Key
+        emailjs.init('b0S7bLMcG_uD5zrE_');
     })();
-</script>
-
+  </script>
 </head>
 
 <body class="index-page">
 
+  <!-- Header / Sidebar -->
   <header id="header" class="header d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <div class="profile-img">
-      <img src="assets/img/my-profile-img.png" alt="" class="img-fluid rounded-circle">
+    <div class="profile-container text-center">
+      <div class="profile-img">
+        <img src="assets/img/my-profile-img.jpg" alt="Yadhu Krishnan" class="img-fluid">
+        <span class="online-indicator" title="Open to Opportunities"></span>
+      </div>
     </div>
 
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
+    <a href="index.html" class="logo d-flex flex-column align-items-center justify-content-center">
       <h1 class="sitename">Yadhu Krishnan</h1>
+      <div class="header-role">Software Engineer</div>
     </a>
 
     <div class="social-links text-center">
-      <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a> -->
-      <a href="https://www.facebook.com/profile.php?id=100011633770406" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
-      <a href="https://www.instagram.com/yadhu_711?igsh=aHdmcnNoaDB2YW10" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-      <!-- <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> -->
-      <a href="https://www.linkedin.com/in/yadhu-krishnan-72846b230" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/yadhu-krishnan-72846b230" class="linkedin" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/thYadhukrishnan" class="github" target="_blank" title="GitHub" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <a href="mailto:yadhukrishnanth@gmail.com" class="email" title="Email" aria-label="Email"><i class="bi bi-envelope"></i></a>
+      <a href="https://www.instagram.com/yadhu_711?igsh=aHdmcnNoaDB2YW10" class="instagram" target="_blank" title="Instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100011633770406" class="facebook" target="_blank" title="Facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#hero" class="active"><i class="bi bi-house-door navicon"></i> Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <!-- <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li> -->
-        <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li> -->
-        <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li> -->
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="#skills"><i class="bi bi-lightning-charge navicon"></i> Skills</a></li>
+        <li><a href="#portfolio"><i class="bi bi-grid-1x2 navicon"></i> Projects</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-code navicon"></i> Resume</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope-at navicon"></i> Contact</a></li>
       </ul>
     </nav>
-
   </header>
 
   <main class="main">
 
     <!-- Hero Section -->
     <section id="hero" class="hero section">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+      <img src="assets/img/hero-bg.jpg" alt="Background" class="hero-bg-img" data-aos="fade-in">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Yadhu Krishnan</h2>
-        <p>I'm <span class="typed" data-typed-items="Web Developer">Web Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-      </div>
+        <div class="hero-status-pill">
+          <span class="pulse-dot"></span> Available for Engineering Roles & High-Impact Projects
+        </div>
 
-    </section><!-- /Hero Section -->
+        <h2>Yadhu Krishnan</h2>
+        <div class="hero-subtitle">Software Engineer | Full-Stack &amp; Laravel/React Specialist</div>
+
+        <p class="typed-line">
+          I'm a <span class="typed" data-typed-items="Backend Software Engineer, Laravel & React Expert, AI & API Integrations, Scalable System Architect">Backend Software Engineer</span>
+        </p>
+
+        <p class="hero-bio">
+          Software Engineer with 3+ years of professional experience architecting robust web applications, asynchronous queue pipelines, interactive React applications, and cutting-edge AI integrations (OpenAI Vision, Vapi AI, Twilio).
+        </p>
+
+        <div class="hero-quick-tags">
+          <span class="tech-badge"><i class="bi bi-check2-circle text-cyan"></i> Laravel</span>
+          <span class="tech-badge"><i class="bi bi-check2-circle text-cyan"></i> PHP</span>
+          <span class="tech-badge"><i class="bi bi-check2-circle text-cyan"></i> React</span>
+          <span class="tech-badge"><i class="bi bi-check2-circle text-cyan"></i> Node.js</span>
+          <span class="tech-badge"><i class="bi bi-check2-circle text-cyan"></i> jQuery</span>
+          <span class="tech-badge"><i class="bi bi-check2-circle text-cyan"></i> MySQL</span>
+          <span class="tech-badge"><i class="bi bi-check2-circle text-cyan"></i> Docker</span>
+          <span class="tech-badge"><i class="bi bi-check2-circle text-cyan"></i> OpenAI Vision</span>
+          <span class="tech-badge"><i class="bi bi-check2-circle text-cyan"></i> Vapi &amp; Twilio</span>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#portfolio" class="btn btn-primary-custom"><i class="bi bi-rocket-takeoff me-2"></i>Explore Projects</a>
+          <a href="#contact" class="btn btn-outline-custom"><i class="bi bi-chat-dots me-2"></i>Get In Touch</a>
+          <a href="#resume" class="btn btn-outline-custom"><i class="bi bi-file-earmark-person me-2"></i>View Resume</a>
+        </div>
+      </div>
+    </section>
 
     <!-- About Section -->
     <section id="about" class="about section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Iam a Computer Science postgraduate with a year of professional experience in web development, I specialise in the Laravel web framework to build robust and scalable web applications. My technical expertise spans across various web technologies, including jQuery, JavaScript, MySQL, HTML5, and CSS.
-          I am passionate about continuous learning and staying updated with the latest industry trends.</p>
-      </div><!-- End Section Title -->
+        <span class="section-tag"><i class="bi bi-terminal"></i> Engineer Bio</span>
+        <h2>About Me</h2>
+        <p>Results-driven Software Engineer bridging scalable, high-concurrency backend architectures with intuitive, modern user interfaces.</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
+        <div class="row gy-4 align-items-center">
           <div class="col-lg-4">
-            <img src="assets/img/my-profile-img.png" class="img-fluid" alt="">
+            <div class="about-img-wrapper">
+              <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="Yadhu Krishnan Profile">
+              <div class="experience-badge">
+                <i class="bi bi-award"></i>
+                <div>
+                  <h4>3+ Years Experience</h4>
+                  <p>Software Engineer at Axel Technologies</p>
+                </div>
+              </div>
+            </div>
           </div>
+
           <div class="col-lg-8 content">
-            <h2>Web Developer.</h2>
-            <p class="fst-italic py-3">
-              I am a Laravel FullStack Developer, proficient in both front end and backend.
+            <h3>Software Engineer &amp; Full-Stack Architect</h3>
+            <p class="lead-bio">
+              I am a results-oriented Software Engineer with <strong>3+ years of professional experience</strong> architecting, developing, and deploying resilient web applications, scalable backend systems, and AI-powered automation solutions. With an <strong>MSc in Computer Science</strong>, my expertise centers on the <strong>Laravel</strong>, <strong>PHP</strong>, <strong>React</strong>, and <strong>Node.js</strong> ecosystems.
             </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>07 November 1999</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Mail:</strong> <span>yadhukrishnanth@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 99 61 704 306</span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li> -->
+            <p class="lead-bio">
+              At Axel Technologies, I contribute to core product engineering, spearheading the design and delivery of critical enterprise modules using asynchronous queues, scheduled cron jobs, WebSockets, and normalized relational databases. I have successfully engineered and shipped major features—including <strong>OpenAI Vision</strong> equipment plate analysis pipelines, <strong>Vapi AI</strong> conversational voice schedulers, and real-time <strong>Twilio</strong> multi-channel messaging platforms.
+            </p>
+            <p class="lead-bio">
+              Known for strong client stakeholder management, I collaborate directly with product owners and international clients across the full software lifecycle to translate complex business challenges into clean, maintainable, and high-performance code.
+            </p>
+
+            <!-- Stat Highlight Cards -->
+            <div class="stats-grid">
+              <div class="stat-item-box">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Years Exp.</span>
+              </div>
+              <div class="stat-item-box">
+                <span class="stat-number">Core</span>
+                <span class="stat-label">Product Engineering</span>
+              </div>
+              <div class="stat-item-box">
+                <span class="stat-number">Multi</span>
+                <span class="stat-label">Modules Shipped</span>
+              </div>
+              <div class="stat-item-box">
+                <span class="stat-number">AI &amp; API</span>
+                <span class="stat-label">Integrations</span>
+              </div>
+            </div>
+
+            <!-- Details List -->
+            <div class="row pt-2">
+              <div class="col-md-6">
+                <ul class="about-details-list">
+                  <li><i class="bi bi-chevron-right"></i> <strong>Role:</strong> <span>Software Engineer</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Company:</strong> <span>Axel Technologies</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>MSc in Computer Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Cyberpark Kozhikode, India</span></li>
                 </ul>
               </div>
-              <div class="col-lg-6">
-                <ul>
+              <div class="col-md-6">
+                <ul class="about-details-list">
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:yadhukrishnanth@gmail.com">yadhukrishnanth@gmail.com</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:+919961704306">+91 99 61 704 306</a></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="currentAge">25</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li> -->
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
+                  <li><i class="bi bi-chevron-right"></i> <strong>Status:</strong> <span class="text-success fw-semibold">Open to Opportunities</span></li>
                 </ul>
               </div>
             </div>
-            <p class="py-3"> </p>
+
           </div>
         </div>
-
       </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <!-- <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section> -->
-    <!-- /Stats Section -->
+    </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Technical expertise and skillset</p>
-      </div><!-- End Section Title -->
+        <span class="section-tag"><i class="bi bi-cpu"></i> Technical Capabilities</span>
+        <h2>Skills &amp; Expertise</h2>
+        <p>Comprehensive technical stack across backend architecture, modern frontend engineering, cloud infrastructure, and AI integrations.</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Laravel</span> <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JQuery</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
+        <!-- Category Filter Buttons (Interactive via jQuery) -->
+        <div class="skills-filter-nav">
+          <button type="button" class="skill-filter-btn active" data-filter="all">All Disciplines</button>
+          <button type="button" class="skill-filter-btn" data-filter="backend">Backend Architecture</button>
+          <button type="button" class="skill-filter-btn" data-filter="frontend">Frontend &amp; UI</button>
+          <button type="button" class="skill-filter-btn" data-filter="database">Databases &amp; Cloud</button>
+          <button type="button" class="skill-filter-btn" data-filter="ai">AI &amp; API Integrations</button>
         </div>
 
-      </div>
+        <div class="row g-4 skills-content skills-animation">
 
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>Explore my professional journey and accomplishments.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
-
-            <div class="resume-item pb-0">
-              <h4>Yadhu Krishnan</h4>
-              <p><em>Dynamic and results-driven web developer with a proven track record of leveraging technical skills to create innovative, user-friendly websites and drive project success.</em></p>
-              <ul>
-                <li>+91 99 61 704 306</li>
-                <li>yadhukrishnanth@gmail.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>MSC IN COMPUTER SCIENCE</h4>
-              <h5>2020 - 2022</h5>
-              <p><em>School Of Computer Sciences</em></p>
-              <p><em>Mahatma Gandhi University,Kottayam</em></p>
-              <p>Secured <b>71%</b></p>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>BSC COMPUTER SCIENCE</h4>
-              <h5>2017 - 2020</h5>
-              <p><em>Kr’s Sreenarayana Collage</em></p>
-              <p><em>University Of Calicut</em></p>
-              <p>Secured <b>65%</b></p>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Associate Software Developer</h4>
-              <h5>2023 - Present</h5>
-              <p><em>Axel Technologies Pvt Ltd</em></p>
-              <ul>
-                <li>Developed Dynamic and user-friendly websites.</li>
-                <li>Knowledge of PHP programing language and Larevel web framework</li>
-                <li>Experience with version control systems, such as Git.</li>
-                <li>Skilled in front-end technologies, including HTML, CSS, JavaScript, jQuery, and Bootstrap.</li>
-                <li>Proficient in SQL for database management and manipulation.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Resume Section -->
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <!-- <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+          <!-- 1. Backend Architecture Card -->
+          <div class="col-lg-6 skill-group-card" data-category="backend">
+            <div class="skill-category-card">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="bi bi-hdd-network"></i>
                 </div>
-              </div> -->
-              <!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Contact</h3>
-                  <p>+91 99 61 704 306</p>
+                  <h4>Backend Architecture &amp; APIs</h4>
+                  <p>Scalable services, asynchronous queues &amp; scheduled workflows</p>
                 </div>
-              </div><!-- End Info Item -->
+              </div>
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email</h3>
-                  <p>yadhukrishnanth@gmail.com</p>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Laravel (MVC, Eloquent, Queues)</span>
+                  <span class="val">95%</span>
                 </div>
-              </div><!-- End Info Item -->
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 95%;"></div>
+                </div>
+              </div>
 
-              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.098176817195!2d75.83445577447885!3d11.254187850200779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65b946032ba75%3A0xf5ed91156d32a4f2!2sCyberpark%20Kozhikode!5e0!3m2!1sen!2sin!4v1719130791405!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.098176817195!2d75.83445577447885!3d11.254187850200779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65b946032ba75%3A0xf5ed91156d32a4f2!2sCyberpark%20Kozhikode!5e0!3m2!1sen!2sin!4v1719130791405!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>PHP (OOP, Design Patterns, REST)</span>
+                  <span class="val">92%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 92%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Node.js &amp; Express</span>
+                  <span class="val">85%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Asynchronous Queues &amp; WebSockets</span>
+                  <span class="val">90%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-tags-cloud">
+                <span class="tech-badge">Laravel 10/11</span>
+                <span class="tech-badge">PHP 8.x</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Laravel Queues</span>
+                <span class="tech-badge">WebSockets</span>
+                <span class="tech-badge">Cron Jobs</span>
+                <span class="tech-badge">RESTful APIs</span>
+                <span class="tech-badge">Microservices</span>
+              </div>
             </div>
           </div>
 
+          <!-- 2. Frontend Engineering Card (Explicitly Highlighting jQuery) -->
+          <div class="col-lg-6 skill-group-card" data-category="frontend">
+            <div class="skill-category-card">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="bi bi-window-fullscreen"></i>
+                </div>
+                <div>
+                  <h4>Frontend Engineering &amp; UI/UX</h4>
+                  <p>Interactive single-page apps, responsive UI &amp; DOM manipulation</p>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>React (Hooks, Context, State Management)</span>
+                  <span class="val">88%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>JavaScript (ES6+, Async/Await, Events)</span>
+                  <span class="val">90%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>jQuery (DOM Manipulation &amp; Ajax)</span>
+                  <span class="val">90%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>HTML5, CSS3 &amp; Bootstrap 5</span>
+                  <span class="val">95%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 95%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-tags-cloud">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">JavaScript (ES6+)</span>
+                <span class="tech-badge">jQuery</span>
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">Bootstrap 5</span>
+                <span class="tech-badge">Responsive Design</span>
+                <span class="tech-badge">AJAX / Fetch API</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Databases & Infrastructure Card -->
+          <div class="col-lg-6 skill-group-card" data-category="database">
+            <div class="skill-category-card">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="bi bi-database-check"></i>
+                </div>
+                <div>
+                  <h4>Databases &amp; Cloud Infrastructure</h4>
+                  <p>Relational optimization, NoSQL models &amp; containerization</p>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>MySQL (Schema Design, Indexing, Query Optimization)</span>
+                  <span class="val">92%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 92%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Docker (Containerization &amp; Compose)</span>
+                  <span class="val">85%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Supabase &amp; MongoDB</span>
+                  <span class="val">82%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 82%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Cloud Deployment (AWS, Render, CI/CD)</span>
+                  <span class="val">80%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-tags-cloud">
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">Supabase</span>
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">Docker</span>
+                <span class="tech-badge">AWS EC2/S3</span>
+                <span class="tech-badge">Render</span>
+                <span class="tech-badge">Git &amp; GitHub</span>
+                <span class="tech-badge">CI/CD Workflows</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. AI & Communication APIs Card -->
+          <div class="col-lg-6 skill-group-card" data-category="ai">
+            <div class="skill-category-card">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="bi bi-robot"></i>
+                </div>
+                <div>
+                  <h4>AI &amp; Communication APIs</h4>
+                  <p>Autonomous LLM pipelines, computer vision &amp; telephony</p>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>OpenAI API (Vision, GPT-4, Structured Outputs)</span>
+                  <span class="val">90%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Vapi AI (Voice Agent Telephony Integration)</span>
+                  <span class="val">88%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Twilio API (Voice, SMS, MMS, Messaging Services)</span>
+                  <span class="val">90%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-info">
+                  <span>Webhook Orchestration &amp; Event Relays</span>
+                  <span class="val">92%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-fill" style="width: 92%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-tags-cloud">
+                <span class="tech-badge">OpenAI Vision</span>
+                <span class="tech-badge">GPT-4 APIs</span>
+                <span class="tech-badge">Vapi AI</span>
+                <span class="tech-badge">Twilio Telephony</span>
+                <span class="tech-badge">Twilio SMS/MMS</span>
+                <span class="tech-badge">Webhooks</span>
+                <span class="tech-badge">Prompt Engineering</span>
+                <span class="tech-badge">Real-time Audio</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects / Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <span class="section-tag"><i class="bi bi-code-slash"></i> Featured Work</span>
+        <h2>Featured Projects</h2>
+        <p>Production systems, AI automation engines, and real-time communication platforms I've engineered with Laravel, React, and modern APIs.</p>
+      </div>
+
+      <div class="container isotope-layout" data-aos="fade-up" data-aos-delay="100" data-layout="masonry" data-default-filter="*" data-sort="original-order">
+
+        <!-- Portfolio Category Filters -->
+        <ul class="portfolio-filters isotope-filters">
+          <li data-filter="*" class="filter-active">All Projects</li>
+          <li data-filter=".filter-ai">AI &amp; Automation</li>
+          <li data-filter=".filter-laravel">Full-Stack &amp; Laravel</li>
+          <li data-filter=".filter-realtime">Real-Time Systems</li>
+        </ul>
+
+        <div class="row gy-4 isotope-container">
+
+          <!-- Project 1: AI Equipment Plate Detection & Analysis -->
+          <div class="col-lg-4 col-md-6 isotope-item filter-ai filter-laravel">
+            <div class="project-card">
+              <div class="project-img-holder">
+                <img src="assets/img/portfolio/project-plate-detection.jpg" alt="AI Equipment Plate Detection and Analysis">
+                <span class="project-badge-top">AI Vision</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/project-plate-detection.jpg" class="project-action-btn glightbox" title="AI Equipment Plate Detection &amp; Analysis (Click to zoom)" aria-label="Zoom screenshot"><i class="bi bi-arrows-fullscreen"></i></a>
+                  <button type="button" class="project-action-btn btn-project-details" data-bs-toggle="modal" data-bs-target="#modal-project-1" title="View Architecture Details" aria-label="View architecture details"><i class="bi bi-info-lg"></i></button>
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3>AI Equipment Plate Detection &amp; Analysis</h3>
+                <p class="project-summary">
+                  Automated industrial equipment inspection system leveraging OpenAI Vision models to detect, extract, and analyze serial plates, specifications, and defect data from captured imagery with high accuracy.
+                </p>
+
+                <ul class="project-feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Sub-second OCR extraction of serials, model numbers, &amp; voltage specs</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Asynchronous Laravel queue workers processing multi-angle equipment scans</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Interactive React dashboard with visual confidence gauges &amp; alert triage</li>
+                </ul>
+
+                <div class="project-stack-wrap">
+                  <span class="tech-badge">Laravel</span>
+                  <span class="tech-badge">OpenAI Vision</span>
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">MySQL</span>
+                  <span class="tech-badge">Queues</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: AI Voice Assistant Appointment Scheduler -->
+          <div class="col-lg-4 col-md-6 isotope-item filter-ai filter-laravel filter-realtime">
+            <div class="project-card">
+              <div class="project-img-holder">
+                <img src="assets/img/portfolio/project-voice-scheduler.jpg" alt="AI Voice Assistant Appointment Scheduler">
+                <span class="project-badge-top">Voice AI &amp; Telephony</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/project-voice-scheduler.jpg" class="project-action-btn glightbox" title="AI Voice Assistant Appointment Scheduler (Click to zoom)" aria-label="Zoom screenshot"><i class="bi bi-arrows-fullscreen"></i></a>
+                  <button type="button" class="project-action-btn btn-project-details" data-bs-toggle="modal" data-bs-target="#modal-project-2" title="View Architecture Details" aria-label="View architecture details"><i class="bi bi-info-lg"></i></button>
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3>AI Voice Assistant Appointment Scheduler</h3>
+                <p class="project-summary">
+                  Conversational voice AI scheduling agent integrating Twilio telephony and Vapi AI real-time voice streaming with Laravel webhooks to automate inbound call handling and booking workflows.
+                </p>
+
+                <ul class="project-feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Low-latency bi-directional voice streaming via Vapi AI + Twilio SIP</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Resilient Laravel webhooks managing multi-turn dialogue states &amp; auth</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Dynamic slot conflict detection and automatic SMS confirmations</li>
+                </ul>
+
+                <div class="project-stack-wrap">
+                  <span class="tech-badge">Laravel</span>
+                  <span class="tech-badge">Vapi AI</span>
+                  <span class="tech-badge">Twilio API</span>
+                  <span class="tech-badge">MySQL</span>
+                  <span class="tech-badge">Webhooks</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Real-Time Two-Way Chat System -->
+          <div class="col-lg-4 col-md-6 isotope-item filter-realtime filter-laravel">
+            <div class="project-card">
+              <div class="project-img-holder">
+                <img src="assets/img/portfolio/project-realtime-chat.jpg" alt="Real-Time Two-Way Chat System">
+                <span class="project-badge-top">Real-Time Messaging</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/project-realtime-chat.jpg" class="project-action-btn glightbox" title="Real-Time Two-Way Chat System (Click to zoom)" aria-label="Zoom screenshot"><i class="bi bi-arrows-fullscreen"></i></a>
+                  <button type="button" class="project-action-btn btn-project-details" data-bs-toggle="modal" data-bs-target="#modal-project-3" title="View Architecture Details" aria-label="View architecture details"><i class="bi bi-info-lg"></i></button>
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3>Real-Time Two-Way Chat System</h3>
+                <p class="project-summary">
+                  Scalable multi-channel messaging platform integrating Twilio SMS/MMS and live WebSockets for instant two-way customer communication with rich attachment support and delivery auditing.
+                </p>
+
+                <ul class="project-feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Instant two-way synchronization between carrier SMS/MMS &amp; web console</li>
+                  <li><i class="bi bi-check-circle-fill"></i> High-performance jQuery &amp; JS frontend for reactive message rendering</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Indexed MySQL message store with delivery receipts &amp; audit trails</li>
+                </ul>
+
+                <div class="project-stack-wrap">
+                  <span class="tech-badge">Laravel</span>
+                  <span class="tech-badge">Twilio API</span>
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">jQuery</span>
+                  <span class="tech-badge">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <div class="container section-title" data-aos="fade-up">
+        <span class="section-tag"><i class="bi bi-journal-text"></i> Professional Timeline</span>
+        <h2>Resume &amp; Experience</h2>
+        <p>A comprehensive overview of my software engineering trajectory, key technical achievements at Axel Technologies, and formal academic background.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+
+          <!-- Left Column: Summary & Education -->
+          <div class="col-lg-6">
+            <h3 class="resume-title"><i class="bi bi-person-badge"></i> Professional Summary</h3>
+            <div class="resume-item pb-3">
+              <h4>Yadhu Krishnan</h4>
+              <p class="resume-summary-text">
+                Dynamic, results-driven Software Engineer with <strong>3+ years of professional experience</strong> architecting, developing, and deploying resilient web applications, scalable backend systems, and AI-powered automation solutions. Specialized in the Laravel, React, and Node.js ecosystems with proven expertise in client management and mission-critical cloud deployments.
+              </p>
+              <ul>
+                <li><i class="bi bi-geo-alt text-cyan me-2"></i>Cyberpark Kozhikode, Kerala, India</li>
+                <li><i class="bi bi-telephone text-cyan me-2"></i>+91 99 61 704 306</li>
+                <li><i class="bi bi-envelope text-cyan me-2"></i>yadhukrishnanth@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title mt-4"><i class="bi bi-mortarboard"></i> Education</h3>
+            <div class="resume-item">
+              <h4>MSc in Computer Science</h4>
+              <span class="resume-date-badge">2020 - 2022</span>
+              <p class="resume-company">School Of Computer Sciences, Mahatma Gandhi University, Kottayam</p>
+              <p class="resume-summary-text">Graduated with <strong>71%</strong>. Comprehensive curriculum focusing on advanced algorithms, distributed systems, relational database architecture, and object-oriented software engineering.</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>BSc Computer Science</h4>
+              <span class="resume-date-badge">2017 - 2020</span>
+              <p class="resume-company">Kr’s Sreenarayana College, University Of Calicut</p>
+              <p class="resume-summary-text">Graduated with <strong>65%</strong>. Core coursework in data structures, web technologies, software engineering fundamentals, and database management systems.</p>
+            </div>
+          </div>
+
+          <!-- Right Column: Professional Experience -->
+          <div class="col-lg-6">
+            <h3 class="resume-title"><i class="bi bi-briefcase"></i> Work Experience</h3>
+
+            <div class="resume-item">
+              <h4>Software Engineer</h4>
+              <span class="resume-date-badge">2023 - Present (3+ Years Cumulative Exp.)</span>
+              <p class="resume-company">Axel Technologies Pvt Ltd (Cyberpark Kozhikode)</p>
+              <ul>
+                <li>Contributed to core product engineering at Axel Technologies, driving the architecture, feature development, and deployment of critical enterprise modules using <strong>Laravel</strong>, <strong>PHP</strong>, <strong>Node.js</strong>, and <strong>React</strong>.</li>
+                <li>Engineered high-throughput background processing pipelines using <strong>Laravel Queues</strong>, <strong>Redis</strong>, and <strong>Cron Jobs</strong>, improving job dispatch efficiency and system throughput.</li>
+                <li>Pioneered modern AI integrations, including <strong>OpenAI Vision APIs</strong> for automated industrial plate inspection and <strong>Vapi AI</strong> + <strong>Twilio</strong> for real-time voice appointment scheduling.</li>
+                <li>Built dynamic and responsive user interfaces using <strong>React</strong>, <strong>JavaScript</strong>, <strong>jQuery</strong>, and <strong>Bootstrap</strong>, ensuring pixel-perfect fidelity across desktop and mobile devices.</li>
+                <li>Designed and optimized normalized <strong>MySQL</strong> databases, writing high-efficiency queries, indices, and integrating <strong>Supabase</strong> and <strong>MongoDB</strong> for document storage.</li>
+                <li>Containerized development and deployment workflows with <strong>Docker</strong>, managing automated release pipelines on <strong>AWS</strong> and <strong>Render</strong>.</li>
+                <li>Collaborated directly with international clients and product managers, translating business needs into high-quality technical deliverables on schedule.</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <span class="section-tag"><i class="bi bi-send"></i> Connect</span>
+        <h2>Get In Touch</h2>
+        <p>Feel free to reach out for software engineering opportunities, project collaborations, or technical consultations.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <!-- Contact Information & Map -->
+          <div class="col-lg-5">
+            <div class="info-wrap">
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-telephone"></i>
+                <div>
+                  <h3>Phone / WhatsApp</h3>
+                  <p><a href="tel:+919961704306">+91 99 61 704 306</a></p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-envelope"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p><a href="mailto:yadhukrishnanth@gmail.com">yadhukrishnanth@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <h3>Location</h3>
+                  <p>Cyberpark Kozhikode, Kerala, India</p>
+                </div>
+              </div>
+
+              <!-- Google Map Embed for Cyberpark Kozhikode -->
+              <div class="map-container mt-3" data-aos="fade-up" data-aos-delay="500">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.098176817195!2d75.83445577447885!3d11.254187850200779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65b946032ba75%3A0xf5ed91156d32a4f2!2sCyberpark%20Kozhikode!5e0!3m2!1sen!2sin!4v1719130791405!5m2!1sen!2sin" width="100%" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Cyberpark Kozhikode Location"></iframe>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Contact Form with EmailJS & jQuery Validation -->
           <div class="col-lg-7">
             <form id="contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
+              <div class="row gy-3">
 
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" >
+                <div class="col-md-6 form-group">
+                  <label for="name-field">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" placeholder="e.g. John Doe" required>
                 </div>
 
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" >
+                <div class="col-md-6 form-group">
+                  <label for="email-field">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" placeholder="e.g. john@example.com" required>
                 </div>
 
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" >
+                <div class="col-md-12 form-group">
+                  <label for="subject-field">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" placeholder="Project Inquiry / Opportunity" required>
                 </div>
 
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" ></textarea>
+                <div class="col-md-12 form-group">
+                  <label for="message-field">Message</label>
+                  <textarea class="form-control" name="message" rows="7" id="message-field" placeholder="How can I assist you with your next project or engineering role?" required></textarea>
                 </div>
 
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message">Message Failed.</div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="col-md-12 text-center pt-2">
+                  <div class="loading">Sending your message...</div>
+                  <div class="error-message">Message sending failed. Please email directly to yadhukrishnanth@gmail.com</div>
+                  <div class="sent-message">Your message has been sent successfully! I will reply shortly.</div>
 
-                  <button type="submit">Send Message</button>
+                  <button type="submit" class="btn btn-primary-custom w-100 py-3"><i class="bi bi-send-fill me-2"></i>Send Message</button>
                 </div>
 
               </div>
             </form>
-          </div><!-- End Contact Form -->
+          </div>
 
         </div>
-
       </div>
-
-    </section><!-- /Contact Section -->
+    </section>
 
   </main>
 
-  <footer id="footer" class="footer position-relative">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <!-- <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p> -->
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+      <div class="copyright">
+        &copy; <span id="currentYear">2026</span> <strong class="text-white">Yadhu Krishnan</strong>. All Rights Reserved.
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        Software Engineer &bull; Full-Stack &amp; AI Integrations &bull; Built with Laravel, React &amp; jQuery
       </div>
     </div>
-
   </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" title="Back to top" aria-label="Back to top">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
 
+  <!-- Project 1 Modal: AI Equipment Plate Detection & Analysis -->
+  <div class="modal fade" id="modal-project-1" tabindex="-1" aria-labelledby="modal-project-1-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content tech-modal">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-project-1-label"><i class="bi bi-robot text-cyan me-2"></i>AI Equipment Plate Detection &amp; Analysis</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/portfolio/project-plate-detection.jpg" class="img-fluid rounded-3 mb-3 border border-secondary" alt="Plate Detection Architecture">
+          <h6 class="text-white fw-bold mb-2">Architectural Highlights &amp; Implementation</h6>
+          <p class="text-muted small">
+            Engineered an automated optical inspection solution designed for industrial plants to catalog heavy equipment specifications, detect serial/voltage tags, and diagnose physical anomalies without manual data entry.
+          </p>
+          <ul class="text-muted small ps-3">
+            <li><strong>AI Computer Vision:</strong> Uses OpenAI GPT-4 Vision API to parse metadata from metallic nameplates with confidence scoring (&gt;96%).</li>
+            <li><strong>Backend Processing:</strong> Laravel with Redis queues for non-blocking asynchronous uploads, image optimization, and webhook dispatching.</li>
+            <li><strong>Frontend Interface:</strong> Built with React &amp; Bootstrap to provide live camera feeds, bounding-box annotations, and dynamic anomaly alerts.</li>
+            <li><strong>Data Integrity:</strong> Relational MySQL architecture indexing equipment serials with full revision history.</li>
+          </ul>
+          <div class="mt-3">
+            <span class="tech-badge">Laravel 10</span>
+            <span class="tech-badge">OpenAI Vision</span>
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">Docker</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-custom py-2 px-3" data-bs-dismiss="modal">Close</button>
+          <a href="#contact" class="btn btn-primary-custom py-2 px-3" data-bs-dismiss="modal">Discuss Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2 Modal: AI Voice Assistant Appointment Scheduler -->
+  <div class="modal fade" id="modal-project-2" tabindex="-1" aria-labelledby="modal-project-2-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content tech-modal">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-project-2-label"><i class="bi bi-mic text-cyan me-2"></i>AI Voice Assistant Appointment Scheduler</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/portfolio/project-voice-scheduler.jpg" class="img-fluid rounded-3 mb-3 border border-secondary" alt="AI Voice Assistant Scheduler">
+          <h6 class="text-white fw-bold mb-2">Architectural Highlights &amp; Implementation</h6>
+          <p class="text-muted small">
+            Developed an autonomous voice assistant that interfaces with inbound telephone callers, interprets natural language appointment requests, queries calendar availability, and finalizes bookings in real time.
+          </p>
+          <ul class="text-muted small ps-3">
+            <li><strong>Voice Streaming:</strong> Powered by Vapi AI connected directly via Twilio SIP trunking with sub-800ms latency audio feedback.</li>
+            <li><strong>State Orchestration:</strong> Laravel backend handles multi-turn dialogue state management, custom tool-call webhooks, and phone caller verification.</li>
+            <li><strong>Calendar Synchronization:</strong> Immediate slot booking with double-booking prevention in MySQL.</li>
+            <li><strong>Multi-Channel Follow-up:</strong> Twilio SMS triggered immediately after call completion with confirmation details and cancellation links.</li>
+          </ul>
+          <div class="mt-3">
+            <span class="tech-badge">Laravel</span>
+            <span class="tech-badge">Vapi AI</span>
+            <span class="tech-badge">Twilio Voice</span>
+            <span class="tech-badge">Webhooks</span>
+            <span class="tech-badge">MySQL</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-custom py-2 px-3" data-bs-dismiss="modal">Close</button>
+          <a href="#contact" class="btn btn-primary-custom py-2 px-3" data-bs-dismiss="modal">Discuss Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 3 Modal: Real-Time Two-Way Chat System -->
+  <div class="modal fade" id="modal-project-3" tabindex="-1" aria-labelledby="modal-project-3-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content tech-modal">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-project-3-label"><i class="bi bi-chat-dots text-cyan me-2"></i>Real-Time Two-Way Chat System</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/portfolio/project-realtime-chat.jpg" class="img-fluid rounded-3 mb-3 border border-secondary" alt="Real-Time Chat System">
+          <h6 class="text-white fw-bold mb-2">Architectural Highlights &amp; Implementation</h6>
+          <p class="text-muted small">
+            Built an enterprise two-way messaging platform facilitating instant customer interactions between cellular SMS/MMS channels and internal customer support operator dashboards.
+          </p>
+          <ul class="text-muted small ps-3">
+            <li><strong>Twilio Messaging Integration:</strong> Inbound and outbound SMS/MMS routing with dynamic webhook event listeners.</li>
+            <li><strong>Interactive UI via jQuery &amp; JS:</strong> Real-time message list updating, typing events, attachment rendering, and unread counts without page refreshes.</li>
+            <li><strong>High-Throughput Storage:</strong> Indexed MySQL tables structured for low-latency thread querying and archival searches.</li>
+            <li><strong>Delivery Auditing:</strong> Status callbacks logging Sent, Delivered, and Read receipts with automatic failure retry workflows.</li>
+          </ul>
+          <div class="mt-3">
+            <span class="tech-badge">Laravel</span>
+            <span class="tech-badge">Twilio SMS</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">jQuery</span>
+            <span class="tech-badge">MySQL</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-custom py-2 px-3" data-bs-dismiss="modal">Close</button>
+          <a href="#contact" class="btn btn-primary-custom py-2 px-3" data-bs-dismiss="modal">Discuss Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -461,97 +911,123 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-<script>
-  $(document).ready(function(){
-    var dob = 1999;
-    const d = new Date();
-    let year = d.getFullYear();
-    var currentAge = year - dob;
-    $('#currentAge').html(currentAge);
 
-    //validate contact-form
+  <!-- Dedicated jQuery Handlers & Form Script -->
+  <script>
+    $(document).ready(function() {
+      // 1. Dynamic Age & Year Calculation
+      const birthYear = 1999;
+      const currentYear = new Date().getFullYear();
+      $('#currentAge').text(currentYear - birthYear);
+      $('#currentYear').text(currentYear);
 
-    $('#contact-form').validate({
-      rules:{
-        name:{
-          required:true,
-          minlength:2,
+      // 2. Interactive Skills Category Filtering via jQuery
+      $('.skill-filter-btn').on('click', function(e) {
+        e.preventDefault();
+        const selectedFilter = $(this).data('filter');
+        $('.skill-filter-btn').removeClass('active');
+        $(this).addClass('active');
+
+        if (selectedFilter === 'all') {
+          $('.skill-group-card').stop(true, true).fadeIn(350);
+        } else {
+          $('.skill-group-card').stop(true, true).hide();
+          $('.skill-group-card[data-category="' + selectedFilter + '"]').stop(true, true).fadeIn(350);
+        }
+      });
+
+      // 3. Contact Form Validation via jQuery Validate
+      $('#contact-form').validate({
+        rules: {
+          name: {
+            required: true,
+            minlength: 2
+          },
+          email: {
+            required: true,
+            email: true
+          },
+          subject: {
+            required: true,
+            minlength: 3
+          },
+          message: {
+            required: true,
+            minlength: 10
+          }
         },
-        email:{
-          required:true,
-          email:true,
+        messages: {
+          name: {
+            required: 'Please enter your name.',
+            minlength: 'Your name must be at least 2 characters.'
+          },
+          email: {
+            required: 'Please enter your email address.',
+            email: 'Please enter a valid email address.'
+          },
+          subject: {
+            required: 'Please enter a subject.',
+            minlength: 'Subject must be at least 3 characters.'
+          },
+          message: {
+            required: 'Please write your message.',
+            minlength: 'Message must be at least 10 characters.'
+          }
         },
-        subject:{
-          required:true,
-        },
-        message:{
-          required:true,
-        },
-      },
-      messages:{
-        name:{
-          required:'This field is required',
-          minlength: 'Please enter a valid name',
-        },
-        email:{
-          required:'This field is required',
-          email:'Please enter a valid mail address',
-        },
-        subject:{
-          required:'This field is required',
-        },
-        message:{
-          required:'This field is required',
-        },
-      },
-      errorPlacement:function(error,element){
-        error.insertAfter(element);
-      }
-    });
+        errorElement: 'span',
+        errorClass: 'error',
+        errorPlacement: function(error, element) {
+          error.insertAfter(element);
+        }
+      });
 
+      // 4. Contact Form Submission via EmailJS
+      $('#contact-form').on('submit', function(event) {
+        event.preventDefault();
 
-    $('#contact-form').on('submit', function(event) {
-                event.preventDefault();
+        if ($('#contact-form').valid()) {
+          $('.loading').addClass('d-block');
+          $('.sent-message').removeClass('d-block');
+          $('.error-message').removeClass('d-block');
 
-              if($('#contact-form').valid()){
+          const templateParams = {
+            name: $('#name-field').val(),
+            email: $('#email-field').val(),
+            subject: $('#subject-field').val(),
+            message: $('#message-field').val()
+          };
 
-                const templateParams = {
-                    name: $('#name-field').val(),
-                    email: $('#email-field').val(),
-                    subject: $('#subject-field').val(),
-                    message: $('#message-field').val()
-                };
+          emailjs.send('service_4vp84sn', 'template_3ibk67w', templateParams)
+            .then(function(response) {
+              console.log('EmailJS Success:', response.status, response.text);
+              $('.loading').removeClass('d-block');
+              $('.sent-message').addClass('d-block');
+              $('#contact-form')[0].reset();
 
-                console.log(templateParams);
+              setTimeout(function() {
+                $('.sent-message').fadeOut(400, function() {
+                  $(this).removeClass('d-block').show();
+                });
+              }, 5000);
+            }, function(error) {
+              console.error('EmailJS Error:', error);
+              $('.loading').removeClass('d-block');
+              $('.error-message').addClass('d-block');
 
-                emailjs.send('service_4vp84sn', 'template_3ibk67w', templateParams)
-                    .then(function(response) {
-                        console.log('SUCCESS!', response.status, response.text);
-                        // alert('Message sent successfully!');
-                        $('.sent-message').addClass('d-block');
-                        setInterval(function() {
-                          $('.sent-message').removeClass('d-block');
-                        }, 3000);
-                        $("#contact-form")[0].reset();
-
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                        // alert('Failed to send message.');
-                        $('.error-message').addClass('d-block');
-                        setInterval(function() {
-                          $('.error-message').removeClass('d-block');
-                        }, 3000);
-                    });
-              }
+              setTimeout(function() {
+                $('.error-message').fadeOut(400, function() {
+                  $(this).removeClass('d-block').show();
+                });
+              }, 5000);
             });
-
-
-  });
-</script>
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
